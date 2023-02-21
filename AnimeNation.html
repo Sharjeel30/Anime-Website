@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Nation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url(https://wallpaperaccess.com/full/10817.jpg);
+            background-size: 1600px;
+            text-align: center;
+        }
+
+        #id1 {
+            border: 5px solid #85a0a2;
+            font-weight: bold;
+            font-size: 50px;
+            font-family: 'Zen Tokyo Zoo', cursive;
+            color: red;
+            background-color: black;
+            text-align: center;
+            padding: 5px 0px 0px 0px;
+            margin: 30px auto;
+            width: 300px;
+        }
+
+        .class1 {
+            color: #ffc7c7;
+            background-color: #00000065;
+            font-size: 20px;
+            border: 3px solid rgb(71, 0, 0);
+            border-radius: 10px;
+            padding: 0px 20px 0px 20px;
+            margin: 0px 250px 0px 250px;
+            text-align: center;
+            
+
+        }
+
+        .class2 {
+            padding: 25px 0px 25px 0px;
+            margin: 50px 500px 0px 500px;
+            background-color: #0f0b0b6b;
+        }
+
+
+        #btn {
+            background-color: rgb(238, 161, 234);
+            font-size: 15px;
+            color: #070502;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        #srch {
+            background-color: rgba(0, 0, 0, 0.719);
+            font-size: 15px;
+            color: rgb(252, 252, 252);
+            border-radius: 15px;
+            border: 2px solid rgb(160, 144, 144);
+
+        }
+
+        #pwd {
+            background-color: rgba(0, 0, 0, 0.719);
+            font-size: 15px;
+            color: rgb(252, 252, 252);
+            border-radius: 15px;
+            border: 2px solid rgb(160, 144, 144);
+            padding-left: 12px;
+            width: 180px;
+
+        }
+
+        #id3 {
+            color: rgba(255, 4, 4, 0.877);
+            background-color: rgba(0, 0, 0, 0.418);
+            border: 1px solid rgba(163, 157, 157, 0.884);
+            margin: 2px 100px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+
+        #btn:hover {
+            background-color: rgb(190, 136, 188);
+        }
+
+        .navbar {
+            background-color: black;
+            border-radius: 15px;
+            margin-top: 3%;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+ 
+        .navbar li {
+
+            float: left;
+            list-style: none;
+            margin: 15px 8px;
+            padding-top: 3px;
+
+        }
+
+        .navbar li a {
+            font-size: 15px;
+            text-decoration: none;
+            color: rgb(255, 0, 0);
+            padding: 2px 6px;
+        }
+
+        .navbar li a:hover {
+            color: rgb(179, 39, 15);
+        }
+
+        .srch {
+            float: right;
+            margin: 15px 70px;
+            border-radius: 5px;
+        }
+
+        .navbar input {
+            color: rgba(255, 0, 0, 0.925);
+            background-color: rgba(226, 215, 215, 0.226);
+            border: 2px solid rgb(245, 8, 8);
+            border-radius: 14px;
+            padding: 3px 30px;
+            width: 129px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="id1">Anime Nation</h1>
+    <div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">New Release</a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">contact Us</a></li>
+                <div class="srch">
+                    <input type="text" placeholder="Search Animes here">
+                </div>
+            </ul>
+
+        </nav>
+    </div>
+    <br><br>
+    <div class="class1">
+        <p>Welcome to the world's most famous Anime site.</p>
+        <p> Here you can watch all your Favorite anime series and movies
+            in free and you can downoad it too.</p>
+    </div><br>
+    <div class="class2">
+        <h3 id="id3">Account login</h3><br>
+        <input type="email" name="Email:" id="srch" placeholder=" eg:abc@gmail.com">
+        <br><br>
+        <input type="password" id="pwd" name="Password:" placeholder="Enter your password">
+        <br><br>
+        <button id="btn">login</button>
+    </div>
+</body>
+
+</html>
